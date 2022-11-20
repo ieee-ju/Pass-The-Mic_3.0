@@ -69,7 +69,7 @@ h2 {
 }
 
 .one{
-    background-image: url(/images/contact-img.jpg);
+    background-image: url(contact-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
