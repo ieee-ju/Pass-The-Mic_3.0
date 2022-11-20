@@ -815,3 +815,20 @@ section {
         height: 60px;
     }
 }
+
+
+span69 {
+    font-weight: 600;
+    /* font-family: sans-serif; */
+    font-size: 1.6rem;
+    /* font-style: italic; */
+    cursor: pointer;
+    transition: 0.3s;
+    color: #000;
+    /* text-decoration: none; */
+
+}
+span69:hover{
+    color: #f51269;
+    cursor: pointer;
+}
