@@ -18,11 +18,19 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("days").innerHTML = days ;
-  document.getElementById("hours").innerHTML = hours ;
-  document.getElementById("minutes").innerHTML = minutes ;
-  document.getElementById("seconds").innerHTML = seconds ;
-//    "    " + hours + "    " + minutes + "    " + seconds + "    "
+  if(days>=0) {
+    document.getElementById("days").innerHTML = days ;
+    document.getElementById("hours").innerHTML = hours ;
+    document.getElementById("minutes").innerHTML = minutes ;
+    document.getElementById("seconds").innerHTML = seconds ;
+  }
+  else {
+    document.getElementById("days").innerHTML = "0" ;
+    document.getElementById("hours").innerHTML = "0" ;
+    document.getElementById("minutes").innerHTML = "0" ;
+    document.getElementById("seconds").innerHTML = "0" ;
+  }
+  
     
   // If the count down is over, write some text 
   if (distance < 0) {
