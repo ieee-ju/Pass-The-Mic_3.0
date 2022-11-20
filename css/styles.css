@@ -385,6 +385,9 @@ img {
     margin-top: 0;
 }
 
+.episode .article-image {
+    width: 100%;
+}
 
 .article-title {
     padding: 1.25em 0 0.5em;
